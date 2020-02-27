@@ -140,8 +140,6 @@ ul{list-style: none;}
     width:100%;
 }
 
-.select{background-color: rgba(36,255,0,0.5);}
-
 nav.menu{
 	width: 200px;
     position: fixed;
