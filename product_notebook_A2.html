@@ -6,7 +6,14 @@
 	<meta name="description" content="The best electronic product E-shop for students">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Studentscomputers - product: notebook (Kontroll2 A2 uppgift)</title>
+	
+	<!--Bootstrap CSS-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!--Custom CSS-->
 	<link rel="stylesheet" type="text/css" href="css/product_notebook_A2.css">
 	<link rel="stylesheet" type="text/css" href="css/product_notebook_A2_1200px.css">
 </head>
@@ -14,89 +21,107 @@
 	
 	<div class="container">
 
-		<section id="header" class="col-12 col-md-12 col-xl-12">
-			
-			<div class="row">
+		<header>
+		   
+			<div class="col-md-18">
+		  		<div class="row">
+			    	<div class="col-md-4">
+			     		<img src="images/logo.png" class="logoimage">
+			    	</div>
 
-				<div id="logo" class="col-4 col-md-3 col-xl-3">
-					<img src="images/logo.png" class="logoimage">
-				</div>
+				    <div class="col-fluid">
+					     <h1> Students Computers </h1>
 
-				<div id="companyname" class="col-4 col-md-3 col-xl-3">
-					<h1>Students Computers</h1>
-				</div>
+					     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  
+	  						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+	    					<span class="navbar-toggler-icon"></span></button>
 
-				<div id="socialmedia" class="d-none d-md-block d-xl-block col-md-5 col-xl-5">
-					<a href="#" class="fa fa-facebook"></a>
-					<a href="#" class="fa fa-twitter"></a>
-					<a href="#" class="fa fa-instagram"></a>
-				</div>
+	  						<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+	    						<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+	      							<li class="nav-item active">
+	       						 	<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+	      							</li>
+	      							<li class="nav-item">
+	        						<a class="nav-link" href="product_notebook_A2.html">Laptops</a>
+	      							</li>
+	        						<li class="nav-item">
+	        						<a class="nav-link" href="#">Desktops</a>
+	      							</li>
+	        						<li class="nav-item">
+	        						<a class="nav-link" href="#">Tablets</a>
+	      							</li>
+	        						<li class="nav-item">
+	        						<a class="nav-link" href="#">E-readers</a>
+	      							</li>
+	   							 </ul>    
+	 						 </div>
 
-				<div id="navmenu" class="col-1 col-md-1 col-xl-1">
-				
-					<div class="hamburger">
-                 	
-	                 	<input type="checkbox" id="nav-toggle">
-	                    <label class="nav-toggle" for="nav-toggle">
-	                        <span></span>
-	                        <span></span>
-	                        <span></span>
-	                    </label>
-					
-						<nav class="menu">
-							<ul class="select">
-								<a href="#"> Home </a>
-								<a href="#"> Desktops </a>
-								<a href="#"> Laptops </a>
-								<a href="#"> Tablet </a>
-								<a href="#"> E-readers </a>
-							</ul>
 						</nav>
+				    </div>
 
-					</div>
+				    	<div class="col-fluid">
 
-				</div>			
+						    <div class="socialmediabuttons">
+						    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+						    		
+						    	<i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+						    	<i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+			                    <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+			                     
+			                </div>
+			                    <div class="search">
+				    				<form class="form-inline my-2 my-lg-0">
+	      								<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      							</form>
+	      						</div>
+	      				
+	      						<div class="container">
+  
+  								<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal"> Shoppingcart</button>
 
+  								<span class="glyphicon glyphicon-shopping-cart"></span>
+
+	  								<div class="modal fade" id="myModal" role="dialog">
+	   								 	<div class="modal-dialog">
+	      									<div class="modal-content">
+	        									
+	        									<div class="modal-header">
+	          										<button type="button" class="close" data-dismiss="modal">&times;</button>
+	          										<h1 class="modal-title">Shoppingcart</h1>
+	          										<hr>
+	        									</div>
+	        									
+	        									<div class="modal-body">
+		           									<div>
+			           									<h2>Products:</h2>
+											            <p>Macbook air:</p>
+											            <p class="price"> 1999 kr </p>
+											         </div>
+											         <div>
+											            <h2>Products:</h2>
+											            <p>Macbook Pro:</p>
+											            <p class="price"> 2499 kr </p>
+											            <hr>
+											            <h2>Total price:</h2>
+											            <p class="price"> 4498 kr</p>
+
+										            </div>
+	        									</div>
+
+	       									 	<div class="modal-footer">
+	          										<button type="button" class="btn btn-primary">Checkout</button>
+	          										<button type="button" class="btn btn-default" data-dismiss="modal">Back</button>
+	        									</div>
+
+	     									</div>
+									</div>
+	   							  </form>    
+			    				</div>
+		  				</div>
 			</div>
-
-
-
-			<div class="row">
-
-				<div id="empty_box1" class="d-none d-md-block d-xl-block col-md-3 col-xl-3"></div>
-
-				<div id="shopsearch" class="col-8 col-md-3 col-xl-3">				
-				 	<input type="text" placeholder="Search..">
-				</div>
-
-				<div id="empty_box2" class="d-none d-md-block d-xl-block col-md-5 col-xl-5"></div>
-
-				<input type="checkbox" id="shopping_toggle"><label class="shopping_toggle" for="shopping_toggle">
-					<img id="shopping_cart" class="col-1 col-md-1 col-xl-1" src="images/shoppingcart.png" alt="shopping cart">
-				</label>
-
-				<nav class="shopping_off_canvas">
-
-					<h1>Shopping cart</h1>
-					<hr>
-					<h2>Products:</h2>
-					<p>Macbook air:</p>
-					<p class="product_name">1999kr</p>
-					<br>
-					<p>Macbook pro:</p>
-					<p class="product_name">2499kr</p>
-					<br>
-					<h2>Total price:</h2>
-					<p class="total_price">4498kr</p>
-					<hr>
-					<p id="pay" class="button">Pay</p>
-					<p id="back" class="button"><a href="" class="back_link">Back</a></p>
-			
-				</nav>			
-
-			</div>
-
-		</section>
+		</header>
+<hr>
 
 
 
@@ -200,7 +225,7 @@
 	-->
 
 
-
+<!--Optional javascript-->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

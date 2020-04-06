@@ -18,7 +18,8 @@
 
 
 
-	/*header(desktop)*/
+	/*
+	-----------------header(desktop)(previous version)--------------------
 
 	.logoimage{
 		display: block; 
@@ -41,9 +42,12 @@
 		margin-right: 100px;
 	}
 
+	--------------------------------------------------------------------*/
 
 
-	/*nav menu(desktop)*/
+
+	/*
+	------------------nav menu(desktop)(previous version)-----------------
 
 	.nav-toggle{display:none;} 
 
@@ -71,9 +75,11 @@
 
 	.menu a:first-child{border-left:none;}		
 
+	---------------------------------------------------------------------*/
 
 
-	/*shopping cart(desktop)*/
+	/*
+	------------------shopping cart(desktop)(previous version)-------------
 
   	#shopping_cart{
     	width: 48px;
@@ -96,5 +102,7 @@
   	input[type=checkbox]:checked ~ .shopping_off_canvas > p#back.button{
     	margin-right: -300px;
   	}
+
+  	----------------------------------------------------------------------*/
 
 }
