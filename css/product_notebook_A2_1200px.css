@@ -1,6 +1,10 @@
 /*desktop*/
 @media screen and (min-width: 1200px){
 
+	.nav-link{width: 70px;}
+
+	#socialmediabuttons{display: inline-block;}
+
 	#content_mobile1{display: none;}
 	
 	#content_mobile2{display: none;}

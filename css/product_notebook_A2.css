@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700,700i|Fresca|Monda:400,700&display=swap');
 
+/*
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+*/
 
 body{
 	background-color: #fff;
@@ -16,6 +18,7 @@ h1, h2{
 }
 
 
+/*
 .row:before,
 .row:after {
   content: "";
@@ -27,11 +30,11 @@ h1, h2{
 }
 
 
+
 .container{
 	margin: 20px;
 }
-
-.logoimage{height: 100px;}
+*/
 
 #product_picture img{
 	width: 90%;
@@ -68,6 +71,11 @@ div.container > section#buy_button_mobile > p, div.container > section#buy_butto
 
 
 /*header(new version)*/
+
+header h1{
+	font-size: 2.5rem;
+	font-weight: 500;
+}
 
 /*shopping cart(new version)*/
 
@@ -106,12 +114,9 @@ div.container > section#buy_button_mobile > p, div.container > section#buy_butto
 
 .search{width: 100%;}
 
-header 	.col-fluid{
-	display: grid;
-	padding:20px;
-} 
+header .col-fluid{display: grid;} 
 
-.socialmediabuttons{display: none;}
+#socialmediabuttons{display: none;}
 
 
 
@@ -338,6 +343,8 @@ input[type=checkbox]:checked ~ .shopping_off_canvas{
 
 	h2{font-size: 16px;}
 
+	.logoimage{height: 100px;}
+
 	#content_not_mobile{display: none;}
 
 	div.container > section#buy_button_mobile.d-block.d-md-none.d-xl-none.d-col-8 > p{
@@ -347,7 +354,7 @@ input[type=checkbox]:checked ~ .shopping_off_canvas{
 
 
 	/*header(mobile)(new version)*/
-	.socialmediabuttons{display: none;}
+	#socialmediabuttons{display: none;}
 
 	.navbar{
 		position: fixed;
@@ -412,8 +419,10 @@ input[type=checkbox]:checked ~ .shopping_off_canvas{
 
 
 /*tablet*/
-@media screen and (min-width: 768px) and (max-width: 1199.98px){
+@media screen and (min-width: 768px) and (max-width: 990px){
 	
+	.logoimage{height: 100px;}
+
 	#content_mobile1{display: none;}
 	
 	#content_mobile2{display: none;}
@@ -434,7 +443,7 @@ input[type=checkbox]:checked ~ .shopping_off_canvas{
 
 
 	/*header(tablet)(new version)*/
-	.socialmediabuttons{display: none;}
+	#socialmediabuttons{display: none;}
 
 	.navbar{
 		position: fixed;
@@ -495,5 +504,35 @@ input[type=checkbox]:checked ~ .shopping_off_canvas{
   	}
 
   	----------------------------------------------------------------------------*/		
+
+}
+
+
+
+@media screen and (min-width: 991px) and (max-width: 1199.98px){
+
+	.logoimage{height: 100px;}
+
+	#content_mobile1{display: none;}
+	
+	#content_mobile2{display: none;}
+
+	body{font-size: 18px;}
+
+	h1{font-size: 30px;}
+
+	h2{font-size: 22px;}
+
+	#advertisement{display:none;}
+
+	div.container > section#buy_button_not_mobile > p{
+		margin-top: 20px;
+		font-size: 45px;
+	}
+	
+
+
+	/*header(tablet)(new version)*/
+	#socialmediabuttons{display: none;}
 
 }
